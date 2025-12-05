@@ -1,0 +1,19 @@
+# --- STM32CubeIDE ---
+/Firmware/*/Debug/
+/Firmware/*/Release/
+/Firmware/*/build/
+*.mxproject
+*.launch
+*.o
+*.su
+*.elf
+
+# --- Altium Placeholders ---
+# (We will add strict Altium ignores later when the team is ready)
+*/History/
+*/__Previews/
+*.LOG
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db

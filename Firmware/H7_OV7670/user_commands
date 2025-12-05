@@ -1,0 +1,20 @@
+MODE_CAPTURE
+  Switches the firmware into camera capture mode and restarts the DCMI/DMA pipeline if needed. Setting is stored in flash so it persists after reset.
+
+MODE_SIMULATE
+  Enables the synthetic scene generator instead of the live sensor. This flag is stored in flash so the board reboots in the same mode.
+
+MAX_FRAMERATE=<value>
+  Sets the maximum number of frames processed per second (1-120). Use 0 for unlimited. The chosen value is written to flash.
+
+CALIBRATE
+  Copies the next processed frame into the reference buffer to establish a new baseline. Executes once per command and is not stored in flash.
+
+DATA_LOG
+  Prints the running averages (last 10 frames) for DCMI capture time, depth calculation time, USB transfer time, and displaced pixel count.
+
+DISPLACED_THRESHOLD=<value>
+  Sets how many displaced pixels are required (1-76800) before the intrusion LED turns on. Stored in flash and applied immediately.
+
+ERROR_THRESHOLD=<value>
+  Adjusts the per-pixel phase-difference tolerance (0-65535) used when counting displaced pixels. Stored in flash and applies to future frames.

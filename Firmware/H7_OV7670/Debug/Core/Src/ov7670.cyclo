@@ -1,0 +1,7 @@
+../Core/Src/ov7670.c:35:5:ov7670_init	1
+../Core/Src/ov7670.c:58:5:ov7670_config	2
+../Core/Src/ov7670.c:70:5:ov7670_startCap	3
+../Core/Src/ov7670.c:85:5:ov7670_stopCap	1
+../Core/Src/ov7670.c:92:6:ov7670_registerCallback	1
+../Core/Src/ov7670.c:98:13:HAL_DCMI_FrameEventCallback	3
+../Core/Src/ov7670.c:109:6:HAL_DCMI_VsyncEventCallback	1

@@ -1,0 +1,7 @@
+../Core/Src/ov7670.c:35:5:ov7670_init	48	static
+../Core/Src/ov7670.c:58:5:ov7670_config	48	static
+../Core/Src/ov7670.c:70:5:ov7670_startCap	16	static
+../Core/Src/ov7670.c:85:5:ov7670_stopCap	8	static
+../Core/Src/ov7670.c:92:6:ov7670_registerCallback	0	static
+../Core/Src/ov7670.c:98:13:HAL_DCMI_FrameEventCallback	16	static
+../Core/Src/ov7670.c:109:6:HAL_DCMI_VsyncEventCallback	0	static
